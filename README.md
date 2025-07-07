@@ -6,7 +6,8 @@ A minimal yet powerful web-based chat application built with Flask, SQLite, and 
 
 ## 📸 Preview
 
-(Add screenshot here if needed)
+![image](https://github.com/user-attachments/assets/b60bf237-3862-4cb6-98ef-74fd0126721f)
+
 
 ## 🧩 Features
 
