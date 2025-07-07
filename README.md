@@ -72,7 +72,25 @@ pip freeze > requirements.txt
 ## 🔧 SQLite with VS Code
 
 - Open database.db with SQLite extension in VS Code  
-- View chat history or run queries directly  
+- View chat history or run queries directly
+-  Verification Steps:
+-  Check Database Creation:
+-  After running the app, look for database.db in your project root
+-  You should see it appear when the app starts
+-  Check VS Code SQLite Extension:
+-  Stop the Flask app (Ctrl+C in terminal)
+-  In VS Code:
+-  Press Ctrl+Shift+P
+- Type "SQLite: Open Database"
+- Select database.db
+- Expand Tables → message
+- Right-click → "Show Table"
+- Test the Application:
+- Run the app: python app.py
+- Visit http://localhost:5000
+- Send a test message
+- Verify it appears in the chat interface
+- Check the database table through VS Code SQLite extension
 
 ## 👨‍💻 Developer Notes
 
